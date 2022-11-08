@@ -15,12 +15,12 @@ It is an improved version of [junian's twitch-recorder](https://gist.github.com/
 2) Install `requests` module [if you don't have it](https://pypi.org/project/requests/)  
    * Windows:    ```python -m pip install requests```  
    * Linux:      ```python3.8 -m pip install requests```
-3) Create `config.py` file in the same directory as `twitch-recorder.py` with:
+3) Set env variables:
 ```properties
-root_path = "/home/abathur/Videos/twitch"
-username = "forsen"
-client_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-client_secret = "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+ROOT_PATH=""
+USERNAME=""
+CLIENT_ID=""
+CLIENT_SECRET=""
 ```
 `root_path` - path to a folder where you want your VODs to be saved to  
 `username` - name of the streamer you want to record by default  
